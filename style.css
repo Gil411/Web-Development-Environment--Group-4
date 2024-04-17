@@ -12,7 +12,8 @@
 }
 
 .banner{
-    padding: 100px 0;
+    /*border: 1px solid #000; */
+    padding: 10px 0;
 }
 
 .banner-card-grid{
@@ -41,7 +42,7 @@
 }
 
 .text-holder{
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -90,4 +91,71 @@
 
 .banner .card:nth-of-type(3) .image-holder{
     background-image: url(https://flyers.smartcanucks.ca/uploads/pages/240413/walmart-on-flyer-april-11-to-171-1.jpg);
+}
+
+.banner2{
+    /*border: 1px solid #000; */
+    padding: 10px 0;
+}
+
+.banner2-card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+.card2{
+    background: #49525d;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 50%);
+    position: relative;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+}
+
+.heart2{
+    background: url(heart.png);
+    background-position: center;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.image-holder2{
+    height: 150px;
+    background-position: top;
+    background-size: cover;
+}
+
+.text-holder2 h3{
+    color: #fff;
+}
+
+.text-holder2 p{
+    color: #72e1af;
+    font-size: 15px;
+}
+
+.text-holder2{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner2 .card2:nth-of-type(1) .image-holder2{
+    background-image: url(https://flyers.smartcanucks.ca/uploads/pages/230552/metro-on-flyer-november-16-to-221-1.jpg);
+}
+
+.banner2 .card2:nth-of-type(2) .image-holder2{
+    background-image: url(https://flyerify.com/images/offers/617652/giant-tiger-on-flyer-march-15-to-21-1-max.jpg);
+}
+
+.banner2 .card2:nth-of-type(3) .image-holder2{
+    background-image: url(https://flyerseek.com/wp-content/uploads/2024/03/provigo-flyer-canada-april-18-24-5.webp);
+}
+
+.banner2 .card2:nth-of-type(4) .image-holder2{
+    background-image: url(https://flyers.smartcanucks.ca/uploads/pages/240779/iga-qc-flyer-april-18-to-241-1.jpg);
 }
