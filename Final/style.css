@@ -6,12 +6,20 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background-color: #1f2833;
 }
 
 .page-header{
-    background-color: #00ffff;
+    background-color: #061b30;
 }
 
+.container{
+    width: 90%;
+	max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
 .container2{
     width: 90%;
     margin: auto;
@@ -47,7 +55,7 @@ body{
 
 .page-header a{
     text-decoration: none;
-    background-color: #0000ff;
+    background-color: #2b557f;
     border-radius: 5px;
     padding: 10px 25px;
     color: #fff;
@@ -62,52 +70,41 @@ body{
     padding: 20px;
 }
 
+.right hr{
+    border: 1px solid #49525d;
+    margin-top: 5px;
+}
+
 .btn{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-size: 15px;
+    font-weight: 300;
     transition: .3s;
     padding: 0px 20px;
 }
 
 .btn:hover{
-    color: #0000ff;
-}
-
-.view{
-    margin-bottom: 50px;
-    position: relative;
+    color: #67abff;
 }
 
 .btn2{
+    font-size: 14px;
+    font-weight: 500;
     color: #000;
-    background-color: #00aaff;
-    padding: 5px 50px;
+    background-color: #67abff;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
     transition: .3s;
-    position: absolute;
-    top: 40%;
-    right: 43%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .btn2:hover{
-    background-color: #0000ff;
-}
-
-
-
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.container{
-    width: 90%;
-	max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #a7ceff;
 }
 
 .banner{
@@ -122,8 +119,9 @@ body{
 }
 
 .banner h2{
-    margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
 }
 
 .card{
@@ -147,16 +145,22 @@ body{
 }
 
 .logo a{
-    color: #fff;
     display: flex;
     gap: 10px;
     text-decoration: none;
     align-items: center;
 }
 
+.logo h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
 .logo p{
     color: #72e1af;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .logo img{
@@ -171,6 +175,18 @@ body{
 
 .heart{
     background: url(heart.png);
+    background-position: center;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: 0.5s;
+}
+
+.heart:hover{
+    background: url(heart2.png);
     background-position: center;
     background-size: cover;
     width: 60px;
@@ -220,6 +236,18 @@ body{
     position: absolute;
     right: 10px;
     top: 10px;
+    transition: 0.5s;
+}
+
+.heart2:hover{
+    background: url(heart2.png);
+    background-position: center;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .image-holder2{
@@ -230,11 +258,14 @@ body{
 
 .text-holder2 h3{
     color: #fff;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .text-holder2 p{
     color: #72e1af;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .text-holder2{
@@ -257,4 +288,22 @@ body{
 
 .banner2 .card2:nth-of-type(4) .image-holder2{
     background-image: url(https://flyers.smartcanucks.ca/uploads/pages/240779/iga-qc-flyer-april-18-to-241-1.jpg);
+}
+
+.banner3{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.request h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: #67abff;
+}
+
+.request p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1a1a1;
 }
